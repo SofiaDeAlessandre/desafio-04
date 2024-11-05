@@ -6,7 +6,6 @@
     <title>Afiliación</title>
   </head>
   <body>
-
     <h1>Vení al Gym!💪🏼</h1>
 
     <form action="">
@@ -41,7 +40,7 @@
         </div>
 
         <div>
-          <label for="sexo">Sexo*</label>
+          <label>Sexo*</label>
           <div>
             <input type="radio" required name="sexo" />Femenino
             <input type="radio" required name="sexo" />Masculino
@@ -52,21 +51,47 @@
     </form>
 
     <form action="">
-<fieldset>
-  <legend> 📱 Datos de Contacto 📧</legend>
-</fieldset>
+      <fieldset>
+        <legend>📱 Datos de Contacto 📧</legend>
 
-<div>
-<label for="telefono">Teléfono:</label>
-<input id="telefono" placeholder="Código de área y número">
-</div>
+        <div>
+          <label for="telefono">Teléfono:</label>
+          <input id="telefono" placeholder="Código de área y número" />
+        </div>
 
-<div>
-  <label for="email">Dirección de correo electrónico:*</label>
-  <input id="email" placeholder="Ej: mail@gmail.com" required>
-  </div>
+        <div>
+          <label for="email">Dirección de correo electrónico:*</label>
+          <input id="email" placeholder="Ej: mail@gmail.com" required />
+        </div>
+      </fieldset>
+    </form>
 
+    <form>
+      <fieldset>
+        <legend>🚴🏼‍♂️ Actividades 🤸🏼‍♂️</legend>
 
+        <p>Por favor, indicá cuáles actividades te interesan.</p>
+
+        <div>
+          <label>Sede Palermo:</label>
+          <div>
+            <input type="checkbox" name="sede-palermo" />Básquet 
+            <input type="checkbox" name="sede-palermo" />Boxeo
+            <input type="checkbox" name="sede-palermo" />Fútbol 
+            <input type="checkbox" name="sede-palermo"/>Tenis
+          </div>
+        </div>
+
+        <div>
+          <label>Sede Rosario:</label>
+          <div>
+            <input type="checkbox" name="sede-rosario"/>Básquet 
+            <input type="checkbox" name="sede-rosario"/>Fútbol
+            <input type="checkbox" name="sede-rosario"/>Rugby 
+            <input type="checkbox" name="sede-rosario"/>Voley
+          </div>
+        </div>
+      </fieldset>
     </form>
 
     <script type="module" src="/main.js"></script>
