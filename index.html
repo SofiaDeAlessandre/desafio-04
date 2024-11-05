@@ -8,28 +8,28 @@
   <body>
     <h1>Vení al Gym!💪🏼</h1>
 
-    <form action="">
-      <fieldset>
+    <form action="https://postman-echo.com/post" method="POST">
+      <fieldset class="texto-centrado">
         <legend>🙋🏼‍♂️ Datos Personales 👀</legend>
 
         <div>
-          <label for="nombre">Nombre:*</label>
-          <input id="nombre" type="text" name="nombre" required />
+          <label for="nombre" class="display-block">Nombre:*</label>
+          <input class="inputs" id="nombre" type="text" name="nombre" required />
         </div>
 
         <div>
           <label for="apellido">Apellido:*</label>
-          <input id="apellido" type="text" name="apellido" required />
+          <input class="inputs" id="apellido" type="text" name="apellido" required />
         </div>
 
         <div>
           <label for="documento">Documento:*</label>
-          <input id="documento" name="documento" required />
+          <input class="inputs" id="documento" name="documento" required />
         </div>
 
         <div>
           <label for="nacionalidad">Nacionalidad:*</label>
-          <select required id="nacionalidad">
+          <select class="inputs" required id="nacionalidad">
             <option>-Seleccionar-</option>
           </select>
         </div>
@@ -49,23 +49,24 @@
         </div>
       </fieldset>
 
-      <form>
-        <fieldset>
+  <hr class="linea-puntos">
+
+        <fieldset class="texto-centrado">
           <legend>📱 Datos de Contacto 📧</legend>
 
           <div>
             <label for="telefono">Teléfono:</label>
-            <input id="telefono" placeholder="Código de área y número" />
+            <input class="inputs" id="telefono" placeholder="Código de área y número" />
           </div>
 
           <div>
             <label for="email">Dirección de correo electrónico:*</label>
-            <input id="email" placeholder="Ej: mail@gmail.com" required />
+            <input class="inputs" id="email" placeholder="Ej: mail@gmail.com" required />
           </div>
         </fieldset>
-      </form>
-
-      <form>
+      
+        <hr class="linea-puntos">
+      
         <fieldset>
           <legend>🚴🏼‍♂️ Actividades 🤸🏼‍♂️</legend>
 
@@ -91,16 +92,16 @@
             </div>
           </div>
         </fieldset>
-      </form>
+      
 
-      <form>
-        <div><input type="checkbox" />Acepto las condiciones*</div>
-        <div><input type="checkbox" />Deseo recibir novedades</div>
-      </form>
+      
+        <div class="input-div"><input type="checkbox"/>Acepto las condiciones*</div>
+        <div class="input-div"><input type="checkbox" />Deseo recibir novedades</div>
+      
 
-      <p>campo obligatorio:*</p>
+      <p class="input-div">campo obligatorio:*</p>
 
-      <button type="submit">Iniciar aficiliación</button>
+      <button type="submit">Iniciar afiliación</button>
       <button type="reset">Restablecer</button>
     </form>
 
