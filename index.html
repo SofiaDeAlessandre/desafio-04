@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <h1>Vení al Gym!💪🏼</h1>
+
+    <form action="">
+      <fieldset>
+        <legend>🙋🏼‍♂️ Datos Personales 👀</legend>
+
+        <div>
+          <label for="nombre">Nombre:*</label>
+          <input id="nombre" type="text" name="nombre" required />
+        </div>
+
+        <div>
+          <label for="apellido">Apellido:*</label>
+          <input id="apellido" type="text" name="apellido" required />
+        </div>
+
+        <div>
+          <label for="documento">Documento:*</label>
+          <input id="documento" name="documento" required />
+        </div>
+
+        <div>
+          <label for="nacionalidad">Nacionalidad:*</label>
+          <select required id="nacionalidad">
+            <option>-Seleccionar-</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="descripcion">Contanos un poco de vos...</label>
+          <textarea name="descripcion" id="descripcion"></textarea>
+        </div>
+
+        <div>
+          <label for="sexo">Sexo*</label>
+          <div>
+            <input type="radio" required name="sexo" />Femenino
+            <input type="radio" required name="sexo" />Masculino
+            <input type="radio" required name="sexo" />Otro
+          </div>
+        </div>
+      </fieldset>
+    </form>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
