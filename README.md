@@ -3,16 +3,16 @@
 # Link Netlify: https://desafio-04-sofia-de-alessandre.netlify.app/
 
 ## POST:
-![](/images/img-method-post.webp)
+![](/public/images/img-method-post.webp)
 
 ## Style:
 
-![](/images/img-styles-readme.webp)
-![](/images/img-styles-2-readme.webp)
+![](/public/images/img-styles-readme.webp)
+![](/public/images/img-styles-2-readme.webp)
 
 ## Estilo Urbano:
-![](/images/img-urbano-readme.webp)
-![](/images/img-urbano-2-readme.webp)
+![](/public/images/img-urbano-readme.webp)
+![](/public/images/img-urbano-2-readme.webp)
 
 ## Estilo Futurista:
 ![](/public/images/img-futurista-readme.webp)
