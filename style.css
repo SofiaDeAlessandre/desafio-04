@@ -38,15 +38,19 @@ legend {
   border-radius: 5px;
   background-color: rgb(77,109,99);
   color: rgb(166,193,185);
-    font-variant: small-caps;
+  font-variant: small-caps;
 }
 
 .inputs {
   width: 50%;
 }
 
+
+
 label {
   display: block;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .texto-centrado {
@@ -57,6 +61,15 @@ label {
   border: none;
   border-top: 10px dotted rgb(166,193,185);
   width: 27%;
+}
+
+textarea {
+  width: 40%;
+  height: 100px;
+}
+
+hr {
+  margin-top: 50px;
 }
 
 button {
@@ -78,4 +91,5 @@ fieldset:focus-within{
 }
 .input-div {
   color: white;
+  margin-top: 10px;
 }
