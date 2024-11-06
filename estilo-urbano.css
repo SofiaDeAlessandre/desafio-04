@@ -1,105 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
-    --color-primario: rgb(240,100,25);
-    --color-secundario: rgb(19,115,191);
+  --color-primario: rgb(240, 100, 25);
+  --color-secundario: rgb(19, 115, 191);
 }
 
 body {
-    background-image: url(images/img-urbano.webp) ;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Kanit", sans-serif;
-  }
-  
-  h1 {
-    margin: auto;
-    width: 40%;
-    color: var(--color-primario);
-    font-size: 40px;
-    box-shadow: 10px 10px 10px 10px var(--color-secundario);
-    text-align: center;
-    font-family: "Anton SC", sans-serif;
-  }
-  
-  form {
-    width: 40%;
-    margin: auto;
-    margin-top: 40px;
-  }
-  
-  fieldset {
-    background-color: transparent;
-    border: 2px solid var(--color-secundario);
-    border-radius: 5px;
-    margin-top: 40px;
-    backdrop-filter: blur(5px);
-  }
-  
-  legend {
-    text-align: end;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: var(--color-secundario);
-    color: var(--color-primario);
-    font-variant:inherit;
-  }
-  
-  .inputs {
-    width: 50%;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 20px;
-    margin-top: 30px;
-  }
-  
-  .texto-centrado {
-    text-align: center;
-  }
-  
-  .linea-puntos {
-    border: none;
-    border-top: 10px dotted var(--color-primario);
-    width: 27%;
-  }
-  
-  textarea {
-    width: 40%;
-    height: 100px;
-  }
-  
-  hr {
-    margin-top: 50px;
-  }
-  
-  button:hover {
-    background-color:var(--color-primario) ;
-    color: var(--color-secundario) ;
-  }
-  
-  button {
-    background-color: var(--color-secundario) ;
-    color: var(--color-primario) ;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 20px;
-  }
-  
-  input:hover{
-    background-color:var(--color-secundario);
-  }
-  
-  fieldset:focus-within{
-    backdrop-filter: blur(10px);
-    border: 1px solid var(--color-primario) ; 
-  }
-  .input-div {
-    color: rgb(153,163,164);
-    background-color: black;
-    display: inline;
-    margin-top: 30px;
-  }
+  background-image: url(/images/img-urbano.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Kanit", sans-serif;
+}
+
+h1 {
+  margin: auto;
+  width: 40%;
+  color: var(--color-primario);
+  font-size: 40px;
+  box-shadow: 10px 10px 10px 10px var(--color-secundario);
+  text-align: center;
+  font-family: "Anton SC", sans-serif;
+}
+
+form {
+  width: 40%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+fieldset {
+  background-color: transparent;
+  border: 2px solid var(--color-secundario);
+  border-radius: 5px;
+  margin-top: 40px;
+  backdrop-filter: blur(5px);
+}
+
+legend {
+  text-align: end;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: var(--color-secundario);
+  color: var(--color-primario);
+  font-variant: inherit;
+}
+
+.inputs {
+  width: 50%;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+.linea-puntos {
+  border: none;
+  border-top: 10px dotted var(--color-primario);
+  width: 27%;
+}
+
+textarea {
+  width: 40%;
+  height: 100px;
+}
+
+hr {
+  margin-top: 50px;
+}
+
+button:hover {
+  background-color: var(--color-primario);
+  color: var(--color-secundario);
+}
+
+button {
+  background-color: var(--color-secundario);
+  color: var(--color-primario);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+input:hover {
+  background-color: var(--color-secundario);
+}
+
+fieldset:focus-within {
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--color-primario);
+}
+
+.input-div {
+  color: rgb(153, 163, 164);
+  background-color: black;
+  display: inline;
+  margin-top: 30px;
+}

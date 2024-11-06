@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --color-primario: rgb(66,49,112);
+    --color-secundario: rgb(191,127,172);
+}
+
+body {
+    background-image: url(/images/img-futurista.webp) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Kanit", sans-serif;
+    color: var(--color-primario);
+  }
+  
+  h1 {
+    margin: auto;
+    width: 40%;
+    color: var(--color-primario);
+    font-size: 40px;
+    border: 2px solid var(--color-secundario);
+    border-radius: 5px;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+  }
+  
+  form {
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+  }
+  
+  fieldset {
+    background-color: transparent;
+    border: 2px solid var(--color-secundario);
+    border-radius: 5px;
+    margin-top: 40px;
+    backdrop-filter: blur(5px);
+  }
+  
+  legend {
+    text-align: end;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+    font-variant:inherit;
+  }
+  
+  .inputs {
+    width: 50%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  .texto-centrado {
+    text-align: center;
+  }
+  
+  .linea-puntos {
+    border: none;
+    border-top: 10px dotted var(--color-primario);
+    width: 27%;
+  }
+  
+  textarea {
+    width: 40%;
+    height: 100px;
+  }
+  
+  hr {
+    margin-top: 50px;
+  }
+  
+  button:hover {
+    background-color:var(--color-primario) ;
+    color: var(--color-secundario) ;
+  }
+  
+  button {
+    background-color: var(--color-secundario) ;
+    color: var(--color-primario) ;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  input:hover{
+    background-color:var(--color-secundario);
+  }
+  
+  fieldset:focus-within{
+    backdrop-filter: blur(10px);
+    background-color: var(--color-secundario);
+    opacity: 80%;
+    border: 1px solid var(--color-primario) ; 
+  }
+  .input-div {
+    color: var(--color-primario);
+    background-color: var(--color-secundario);
+    margin-top: 30px;
+    width: 30%;
+  }
